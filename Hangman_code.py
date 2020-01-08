@@ -14,7 +14,7 @@ def hangman():
       for i in range(0,len(name)):
            dict_name[j]=(name[i])
            j=j+1
-      for i in range(0,60):
+      for i in range(0,60):#this only done so that user2 cannot look at the name entered by user1
              print('\n')
       for i in range(0,len(name)):
          if ord(name[i])== 97:
